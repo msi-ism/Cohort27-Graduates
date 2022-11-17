@@ -1,12 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import MSCard from  './components/msi-component'
-
-
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <MSCard />
+      <ABCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
