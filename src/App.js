@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import MSCard from  './components/msi-component'
+
 
 function App() {
   return (
     <div className="App">
+      <MSCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
